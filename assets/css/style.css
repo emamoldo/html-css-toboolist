@@ -1,0 +1,19 @@
+/* Color Palette 
+:root{
+    --bool-primary: rgba(70, 172, 241, 1);
+    --bool-secondary: rgba(156,115,229,1);
+    --bool-third: rgba(101,192,168,1);
+    --bool-fourth: rgba(243, 158, 50, 1);
+    --bool-fifth: rgba(217, 99, 161, 1);
+    --bool-sixth: rgba(177, 200, 38, 1);
+    --bool-text: rgba(7, 7, 6, 1);
+}
+*/
+.logo_toboo{
+    vertical-align: -100%;
+    
+}
+.logo_text{
+    font-size: 35px;
+}
+
