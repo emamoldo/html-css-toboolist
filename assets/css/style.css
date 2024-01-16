@@ -1,4 +1,4 @@
-/* Color Palette 
+/* Color Palette */
 :root{
     --bool-primary: rgba(70, 172, 241, 1);
     --bool-secondary: rgba(156,115,229,1);
@@ -8,12 +8,118 @@
     --bool-sixth: rgba(177, 200, 38, 1);
     --bool-text: rgba(7, 7, 6, 1);
 }
-*/
-.logo_toboo{
-    vertical-align: -100%;
+
+.main_container{
+    width: 1000px;
+    margin: auto;
+    background-color: white;
+    border-radius: 5px;
+    padding-top: 15px;
+}
+
+.add_task{
+    background-color: var(--bool-primary);
+    color: white;
+    border-radius: 4px;
+    text-align: center;
+    border-color: var(--bool-primary);
+    padding: 5px;
+    margin-left: 50px;
     
 }
+
+.add_section{
+    background-color: white;
+    color: lightgray;
+    border-radius: 4px;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid
+}
+
+.logo{
+    background-color: white;
+}
+
+.logo_toboo{
+    vertical-align: -100%;
+}
+
 .logo_text{
     font-size: 35px;
 }
 
+.container_task{
+    margin-left: 50px;
+}
+
+/* */
+
+#edit{
+    background-color: var(--bool-primary);
+    color: white;
+    border-radius: 8px;
+    padding: 3px;
+    font-size: 0.75rem;
+}
+
+#goals{
+    background-color: var(--bool-secondary);
+    color: white;
+    border-radius: 8px;
+    padding: 3px;
+    font-size: 0.75rem;
+}
+
+#recru{
+    background-color: var(--bool-third);
+    color: white;
+    border-radius: 8px;
+    padding: 3px;
+    font-size: 0.75rem;
+}
+
+#mob{
+    background-color: var(--bool-fourth);
+    color: white;
+    border-radius: 8px;
+    padding: 3px;
+    font-size: 0.75rem;
+}
+
+#web{
+    background-color: var(--bool-fifth);
+    color: white;
+    border-radius: 8px;
+    padding: 3px;
+    font-size: 0.75rem;
+}
+
+#sales{
+    background-color: var(--bool-sixth);
+    color: white;
+    border-radius: 8px;
+    padding: 3px;
+    font-size: 0.75rem;
+}
+
+.hr_colored{
+    border-top: 1px solid lightgray;
+}
+
+#first_text{
+    font-size: 25px; 
+}
+
+#testo{
+    font-size: 20px;
+}
+
+.background_body{
+    background-color: lightgray;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+#check{
+    border-color: black;
+}
